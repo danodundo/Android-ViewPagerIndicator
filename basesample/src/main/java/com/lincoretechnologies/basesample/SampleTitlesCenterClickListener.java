@@ -1,14 +1,12 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
 import android.widget.Toast;
 
-import com.viewpagerindicator.TitlePageIndicator;
-import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
-import com.viewpagerindicator.TitlePageIndicator.OnCenterItemClickListener;
+import com.lincoretechnologies.libraryx.TitlePageIndicator;
 
-public class SampleTitlesCenterClickListener extends BaseSampleActivity implements OnCenterItemClickListener {
+public class SampleTitlesCenterClickListener extends BaseSampleActivity implements TitlePageIndicator.OnCenterItemClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +19,7 @@ public class SampleTitlesCenterClickListener extends BaseSampleActivity implemen
 
         TitlePageIndicator indicator = (TitlePageIndicator)findViewById(R.id.indicator);
         indicator.setViewPager(mPager);
-        indicator.setFooterIndicatorStyle(IndicatorStyle.Underline);
+        indicator.setFooterIndicatorStyle(TitlePageIndicator.IndicatorStyle.Underline);
         indicator.setOnCenterItemClickListener(this);
         mIndicator = indicator;
     }

@@ -1,8 +1,9 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
-import com.viewpagerindicator.CirclePageIndicator;
+
+import com.lincoretechnologies.libraryx.CirclePageIndicator;
 
 public class SampleCirclesSnap extends BaseSampleActivity {
     @Override

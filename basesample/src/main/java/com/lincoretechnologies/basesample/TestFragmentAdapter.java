@@ -1,9 +1,10 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import com.viewpagerindicator.IconPagerAdapter;
+
+import com.lincoretechnologies.libraryx.IconPagerAdapter;
 
 class TestFragmentAdapter extends FragmentPagerAdapter implements IconPagerAdapter {
     protected static final String[] CONTENT = new String[] { "This", "Is", "A", "Test", };

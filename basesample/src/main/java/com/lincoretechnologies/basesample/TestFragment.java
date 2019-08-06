@@ -1,4 +1,4 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

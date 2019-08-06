@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.viewpagerindicator;
+package com.lincoretechnologies.libraryx;
 
 import android.content.Context;
 import androidx.viewpager.widget.PagerAdapter;
@@ -67,7 +67,7 @@ public class TabPageIndicator extends HorizontalScrollView implements PageIndica
     private final IcsLinearLayout mTabLayout;
 
     private ViewPager mViewPager;
-    private ViewPager.OnPageChangeListener mListener;
+    private OnPageChangeListener mListener;
 
     private int mMaxTabWidth;
     private int mSelectedTabIndex;

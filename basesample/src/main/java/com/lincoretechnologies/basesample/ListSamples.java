@@ -1,4 +1,4 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import java.text.Collator;
 import java.util.ArrayList;

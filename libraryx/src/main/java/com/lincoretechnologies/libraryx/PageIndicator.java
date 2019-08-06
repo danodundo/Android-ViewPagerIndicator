@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.viewpagerindicator;
+package com.lincoretechnologies.libraryx;
 
 import androidx.viewpager.widget.ViewPager;
 

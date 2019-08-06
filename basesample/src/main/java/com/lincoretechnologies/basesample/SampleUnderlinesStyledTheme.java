@@ -1,8 +1,9 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
-import com.viewpagerindicator.UnderlinePageIndicator;
+
+import com.lincoretechnologies.libraryx.UnderlinePageIndicator;
 
 public class SampleUnderlinesStyledTheme extends BaseSampleActivity {
     @Override

@@ -1,8 +1,9 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
-import com.viewpagerindicator.LinePageIndicator;
+
+import com.lincoretechnologies.libraryx.LinePageIndicator;
 
 public class SampleLinesStyledMethods extends BaseSampleActivity {
     @Override

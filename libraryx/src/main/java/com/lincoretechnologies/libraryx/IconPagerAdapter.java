@@ -1,4 +1,4 @@
-package com.viewpagerindicator;
+package com.lincoretechnologies.libraryx;
 
 public interface IconPagerAdapter {
     /**

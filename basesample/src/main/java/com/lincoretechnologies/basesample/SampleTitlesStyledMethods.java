@@ -1,10 +1,10 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
 
-import com.viewpagerindicator.TitlePageIndicator;
-import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
+import com.lincoretechnologies.libraryx.TitlePageIndicator;
+
 
 public class SampleTitlesStyledMethods extends BaseSampleActivity {
     @Override
@@ -26,7 +26,7 @@ public class SampleTitlesStyledMethods extends BaseSampleActivity {
         indicator.setFooterColor(0xFFAA2222);
         indicator.setFooterLineHeight(1 * density); //1dp
         indicator.setFooterIndicatorHeight(3 * density); //3dp
-        indicator.setFooterIndicatorStyle(IndicatorStyle.Underline);
+        indicator.setFooterIndicatorStyle(TitlePageIndicator.IndicatorStyle.Underline);
         indicator.setTextColor(0xAA000000);
         indicator.setSelectedColor(0xFF000000);
         indicator.setSelectedBold(true);

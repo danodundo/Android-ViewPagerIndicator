@@ -1,4 +1,4 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -6,8 +6,9 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.viewpagerindicator.IconPagerAdapter;
-import com.viewpagerindicator.TabPageIndicator;
+
+import com.lincoretechnologies.libraryx.IconPagerAdapter;
+import com.lincoretechnologies.libraryx.TabPageIndicator;
 
 public class SampleTabsWithIcons extends FragmentActivity {
     private static final String[] CONTENT = new String[] { "Calendar", "Camera", "Alarms", "Location" };

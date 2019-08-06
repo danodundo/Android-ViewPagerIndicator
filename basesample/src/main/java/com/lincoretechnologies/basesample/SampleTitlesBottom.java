@@ -1,8 +1,9 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
-import com.viewpagerindicator.TitlePageIndicator;
+
+import com.lincoretechnologies.libraryx.TitlePageIndicator;
 
 public class SampleTitlesBottom extends BaseSampleActivity {
     @Override

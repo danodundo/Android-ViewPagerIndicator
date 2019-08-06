@@ -1,10 +1,9 @@
-package com.viewpagerindicator.sample;
+package com.lincoretechnologies.basesample;
 
 import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
 
-import com.viewpagerindicator.TitlePageIndicator;
-import com.viewpagerindicator.TitlePageIndicator.IndicatorStyle;
+import com.lincoretechnologies.libraryx.TitlePageIndicator;
 
 public class SampleTitlesTriangle extends BaseSampleActivity {
     @Override
@@ -19,7 +18,7 @@ public class SampleTitlesTriangle extends BaseSampleActivity {
 
         TitlePageIndicator indicator = (TitlePageIndicator)findViewById(R.id.indicator);
         indicator.setViewPager(mPager);
-        indicator.setFooterIndicatorStyle(IndicatorStyle.Triangle);
+        indicator.setFooterIndicatorStyle(TitlePageIndicator.IndicatorStyle.Triangle);
         mIndicator = indicator;
     }
 }
